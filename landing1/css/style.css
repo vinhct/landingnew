@@ -1,0 +1,948 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.body {
+    background-size: 100% !important;
+    overflow: hidden;
+    margin: 0;
+    position: absolute;
+    height: 100%;
+    display: block;
+    left: 50%;
+}
+
+.container {
+    background: url("../images/bg.jpg") no-repeat scroll 0px 0px;
+    width: 100%;
+    height: 847px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.content{
+    width: 100%;
+    float: left;
+	margin-top:150px;
+}
+
+.page {
+    width: 100%;
+    margin: 0 auto;
+}
+.logo_content{
+    width:125px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.logo{
+    background:url("../images/logo.png") no-repeat scroll 0px 0px;
+    height: 125px;
+    width: 128px;
+}
+.text_content{
+    width: 600px;
+    margin: 0 auto;
+    margin-left: 31%;
+}
+.login_page{
+    width: 100%;
+    margin: 0 auto;
+}
+.login {
+    width: 373px;
+    margin: 0 auto;
+}
+
+.form_login {
+    background:url("../images/bg_login.png") no-repeat scroll 0px 0px;
+    height: 452px;
+    width: 478px;
+    margin-left: -8%;
+}
+.login_top{
+    width: 100%;
+    margin: 0 auto;
+}
+.login_top_left{
+    width: 37%;
+    float: left;
+}
+.login_top_right{
+    width: 41%;
+    float: left;
+}
+.register{
+    width: 100%;
+    float: left;
+
+}
+.register ul{
+    float: left;
+    width: 100%;
+    list-style-type: none;
+}
+.register ul li{
+    float: left;
+    display: block;
+    width: 100%;
+    margin-bottom: 13px;
+}
+.register ul li input{
+
+    float: left;
+    width: 88%;
+    height: 46px;
+    border: 0px;
+    padding-left: 37px;
+    color: #ffffff;
+}
+.squaredFour {
+    width: 368px;
+    margin: 0px auto;
+
+    margin-bottom: 10px;
+}
+.squaredFour input[type=checkbox] {
+
+    width: 18px;
+    height: 18px;
+}
+
+.squaredFour #dongy{
+    color: #fff;
+    font-size: 18px;
+}
+.squaredFour #dieukhoan{
+    color: #48b8ba;
+    font-size: 18px;
+}
+
+
+.item{
+
+    border-radius: 7px;
+    border: 2px solid #389abd;
+    float: left;
+
+}
+.icon_user{
+    background: url("../images/ic-user.png") no-repeat scroll 10px 11px;
+    width: 20px;
+    height: 19px;
+    float: left;
+}
+.icon_pass{
+    background: url("../images/ic-pass.png") no-repeat scroll 10px 11px;
+    width: 15px;
+    height: 19px;
+    float: left;
+}
+.capcha{
+    background: transparent;
+    float: left;
+    width: 100px !important;
+    padding-left: 10px !important;
+}
+.login_bot{
+    width: 378px;
+    margin: 0 auto;
+}
+.title_login{
+    width: 100%;
+    color: #ece37f;
+    font-family: Arial;
+    font-size: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 30px;
+}
+.login_bot ul{
+    float: left;
+    width: 100%;
+    list-style-type: none;
+    margin-top: -1px;
+}
+.login_bot ul li:first-child{
+    padding-right: 20px;
+}
+.login_bot ul li:last-child{
+    padding-left: 0px;
+}
+.login_bot ul li{
+    float: left;
+    display: inline;
+
+}
+.capcha_img{
+    height: 42px;
+    width: 150px;
+    float: left;
+    border-radius: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.btn_reg{
+    background: url("../images/btn_reg.png") no-repeat scroll 0px 0px;
+    width: 233px;
+    height: 50px;
+    float: left;
+border: none;
+
+}
+.btn_face{
+    background: url("../images/ic-face.png") no-repeat scroll 0px 0px;
+    width: 57px;
+    height: 55px;
+    float: left;
+}
+.btn_google{
+    background: url("../images/ic-google.png") no-repeat scroll 0px 0px;
+    width: 59px;
+    height: 56px;
+    float: left;
+}
+.refesh{
+    background: url("../images/icon-refesh.png") no-repeat scroll 0px 0px;
+    width: 51px;
+    height: 47px;
+    float: left;
+}
+.error{
+    height: 25px;
+    color: #ff0000;
+    float: left;
+    text-align: left;
+    width: 100%;
+    font-size: 11px;
+    font-family: Arial;
+    padding-left: 40px;
+line-height: 25px;
+}
+.facebook{
+    background: url("../images/facebook.png") no-repeat scroll 0px 6px;
+    width: 63px;
+    height: 68px;
+    float: left;
+	z-index:9999;
+}
+.google{
+    background: url("../images/google.png") no-repeat scroll 0px 6px;
+    width: 63px;
+    height: 68px;
+    float: left;
+	z-index:9999;
+}
+.twiter{
+    background: url("../images/twiter.png") no-repeat scroll 0px 6px;
+    width: 63px;
+    height: 68px;
+    float: left;
+	z-index:9999;
+}
+.social{
+    width: 700px;
+    margin: 0 auto;
+	margin-left:42%;
+	    z-index: 9999;
+    position: relative;
+}
+.social ul{
+    float: left;
+    width: 100%;
+    display: block;
+    list-style-type: none;
+}
+.social ul li{
+    float: left;
+    display: block;
+    padding-left: 10px;
+}
+.social ul li:first-child{
+    float: left;
+    display: block;
+    padding-left: 0px;
+}
+.social ul li span{
+    color: #fff;
+    line-height: 63px;
+    font-family: Arial;
+    font-size: 25px;
+	    padding-left: 0px;
+}
+.news{
+    width: 400px;
+    margin: 0 auto;
+	margin-left:40%;
+	margin-top:20px;
+	float:left;
+}
+.news ul{
+    float: left;
+    width: 100%;
+    display: block;
+    list-style-type: none;
+}
+.news ul li{
+    float: left;
+    display: block;
+    padding-left: 20px;
+	 padding-right: 20px;
+	border-right:1px solid #fff;
+}
+.news ul li:first-child{
+    float: left;
+    display: block;
+    padding-left: 0px;
+}
+.news ul li:last-child{
+    float: left;
+    display: block;
+    padding-right: 0px;
+	border-right:0px solid #fff;
+}
+.news ul li a{
+    color: #fff;
+	text-decoration:none;
+    line-height: 23px;
+    font-family: Arial;
+    font-size: 16px;
+	    padding-left: 0px;
+}
+.lexus{
+width: 100%;
+    float: left;
+}
+.lexus_content{
+    width: 410px;
+    margin: 0 auto;
+    margin-top: -175px;
+	float:left;
+}
+.girl{
+    width: 100%;
+    float: left;
+}
+.girl_content{
+    width: 156px;
+   float:right;
+    
+}
+.content_footer{
+    width: 100%;
+    float: left;
+}
+.content_left{
+    width: 40%;
+    float: left;
+}
+.content_center{
+    width: 100%;
+    float: left;
+}
+.content_right{
+    width: 40%;
+    float: left;
+}
+.main{
+    width: 1400px;
+    margin: 0 auto;
+}
+.tabgame{
+    background: url("../images/tabgame.png") no-repeat scroll 0px 0px;
+    width: 593px;
+    height: 606px;
+    float: left;
+    margin-top: -30%;
+    margin-left: -20%;
+}
+.vq-center .vq-spin-button {
+  
+    width: 539px;
+    height: 135px;
+    
+    position: absolute;
+    top: 145px;
+   
+    z-index: 2;
+}
+.vq-center .vq-spin-button-lx {
+  
+    width: 539px;
+    height: 135px;
+    position: absolute;
+    top: 450px;
+   
+    z-index: 2;
+}
+.vq-center .vq-spin-button-gs {
+  
+    width: 218px;
+    height: 685px;
+    position: absolute;
+    top: 150px;
+    z-index: 2;
+}
+.btn_login{
+	background:url("../images/login.png")no-repeat ;
+	width:268px;
+	height:77px;
+	background-position: 0px 0px;
+	float:left
+	
+}
+.btn_login:hover{
+	background:url("../images/login.png")no-repeat ;
+	width:268px;
+	height:77px;
+	background-position: -283px 0px;
+	float:left
+	
+}
+@media screen and (max-width: 1400px) and (min-width: 1100px) {
+    .main {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .login_top {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .lexus {
+        width: 88%;
+        float: left;
+        margin-top: -25px;
+        margin-left: 40px;
+    }
+    .lexus_content{
+        width: 410px;
+        margin: 0 auto;
+        margin-top: -150px;
+        margin-left: 35px;
+        display: none;
+
+    }
+
+    .girl {
+        width: 88%;
+        float: left;
+        margin-top: -17%;
+    }
+    .girl_content {
+        width: 156px;
+        margin: 0 auto;
+        margin-top: -505px;
+        margin-left: 48px;
+        display: none;
+    }
+    .text_content {
+        width: 43%;
+        margin: 0 auto;
+        margin-left: 31%;
+    }
+    .form_login {
+        background: url("../images/bg_login.png") no-repeat scroll 0px 0px;
+        height: 454px;
+
+        margin-left: -5%;
+    }
+    .tabgame {
+        background: url("../images/tabgame.png") no-repeat scroll 0px 0px;
+
+        height: 542px;
+        float: left;
+        margin-top: -20%;
+        margin-left: 8%;
+    }
+    .social {
+        width: 500px;
+        margin: 0 auto;
+        margin-top: 20px;
+        
+    }
+}
+@media screen and (max-width: 1100px) and (min-width: 768px) {
+    .main {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .login_top {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .lexus {
+        width: 88%;
+        float: left;
+        margin-top: -25px;
+        margin-left: 40px;
+    }
+    .lexus_content{
+        width: 410px;
+        margin: 0 auto;
+        margin-top: -150px;
+        margin-left: 35px;
+        display: none;
+
+    }
+
+    .girl {
+        width: 88%;
+        float: left;
+        margin-top: -17%;
+    }
+    .girl_content {
+        width: 156px;
+        margin: 0 auto;
+        margin-top: -505px;
+        margin-left: 48px;
+        display: none;
+    }
+    .text_content {
+        width:525px;
+        margin: 0 auto;
+        margin-left: 31%;
+    }
+    .form_login {
+        background: url("../images/bg_login.png") no-repeat scroll 0px 0px;
+        height: 454px;
+        margin-left: -5%;
+    }
+    .tabgame {
+        background: url("../images/tabgame.png") no-repeat scroll 0px 0px;
+        height: 542px;
+        float: left;
+        margin-top: -20%;
+        margin-left: 8%;
+    }
+    .social {
+        width: 500px;
+        margin: 0 auto;
+        margin-top: -70px;
+       
+    }
+	.news {
+    width: 400px;
+    margin: 0 auto;
+    margin-left: 35%;
+    
+    float: left;
+}
+    .logo_content {
+        width: 63px;
+        margin: 0 auto;
+        padding-top: 10px;
+        margin-left: 50%;
+        padding-bottom: 10px;
+    }
+}
+@media screen and (max-width: 767px) and (min-width: 481px) {
+    .main {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .login_top {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .lexus {
+        width: 88%;
+        float: left;
+        margin-top: -25px;
+        margin-left: 40px;
+    }
+    .lexus_content{
+        width: 410px;
+        margin: 0 auto;
+        margin-top: -150px;
+        margin-left: 35px;
+        display: none;
+
+    }
+
+    .girl {
+        width: 88%;
+        float: left;
+        margin-top: -17%;
+    }
+    .girl_content {
+        width: 156px;
+        margin: 0 auto;
+        margin-top: -505px;
+        margin-left: 48px;
+        display: none;
+    }
+    .text_content {
+        width:525px;
+        margin: 0 auto;
+        margin-left: 31%;
+        display: none;
+    }
+    .form_login {
+        background: url("../images/bg_login.png") no-repeat scroll 0px 0px;
+        height: 454px;
+        margin: 0 auto;
+    }
+    .tabgame {
+        background: url("../images/tabgame.png") no-repeat scroll 0px 0px;
+        height: 542px;
+        float: left;
+        margin-top: -20%;
+        margin-left: 8%;
+        display: none;
+    }
+    .social {
+        width: 450px;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    .logo_content {
+        width: 63px;
+        margin: 0 auto;
+        padding-top: 10px;
+        margin-left: 42%;
+        padding-bottom: 10px;
+    }
+    .login_top_left {
+        width: 22%;
+        float: left;
+    }
+    .social ul{
+        float: left;
+        width: 100%;
+        display: block;
+        list-style-type: none;
+    }
+.news{
+    width: 100%;;
+    margin: 0 auto;
+	
+	margin-top:20px;
+	float:left;
+}
+    .social ul li{
+        float: left;
+        display: block;
+        padding-left: 10px;
+    }
+    .social ul li span{
+        color: #fff;
+        line-height: 63px;
+        font-family: Arial;
+        font-size: 24px;
+    }
+    .login_top_right {
+        width: 100%;
+        float: left;
+    }
+}
+@media screen and (max-width: 480px) and (min-width: 120px){
+   
+.title_login {
+    width: 100%;
+    color: #fff;
+    font-family: Arial;
+    font-size: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+	    padding-top: 20%;
+		float:left;
+}
+.capcha_img {
+    height: 35px;
+    min-width: 48px;
+    float: left;
+    border-radius: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.logo {
+    background: url(../images/logo.png) ;
+    height: 80px;
+    width: 80px;
+	 background-repeat: no-repeat; 
+	background-size:contain;
+}
+   .main {
+        width: 85%;
+        margin: 0 auto;
+    }
+	.login {
+    width: 90%;
+    margin: 0 auto;
+}
+.register {
+    width: 90%;
+    float: left;
+    margin-left: 0%;
+}
+.login_bot ul li:first-child {
+    padding-right: 5px;
+}
+.register ul li input {
+    float: left;
+    height: 38px;
+    border: 0px;
+  
+}
+.login_bot {
+    width: 100%;
+    margin: 0 auto;
+}
+    .login_top {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .lexus {
+        width: 88%;
+        float: left;
+        margin-top: -25px;
+        margin-left: 40px;
+    }
+    .lexus_content{
+        width: 410px;
+        margin: 0 auto;
+        margin-top: -150px;
+        margin-left: 35px;
+        display: none;
+
+    }
+.content {
+    width: 100%;
+    float: left;
+    margin-top: 15px;
+}
+    .girl {
+        width: 88%;
+        float: left;
+        margin-top: -17%;
+    }
+    .girl_content {
+        width: 156px;
+        margin: 0 auto;
+        margin-top: -505px;
+        margin-left: 48px;
+        display: none;
+    }
+    .text_content {
+        width:525px;
+        margin: 0 auto;
+        margin-left: 31%;
+        display: none;
+    }
+    .form_login {
+        background: url("../images/bg_login.png");
+   background-repeat: no-repeat;        
+    position: relative;        
+    width: 100%;            
+    height: 396px;       
+    margin-left: auto;      
+    margin-right: auto;  
+	background-size:contain;
+background-position:center;
+    }
+	.refesh {
+    background: url(../images/icon-refesh.png) ;
+    width: 30px ;
+    height: 30px;
+	 background-repeat: no-repeat; 
+	background-size:contain;
+ float:left;
+}
+.btn_reg {
+    background: url(../images/btn_reg.png) ;
+    width: 140px;
+    height: 48px;
+    float: left;
+	 background-repeat: no-repeat; 
+	background-size:contain;
+    border: none;
+}
+.btn_google {
+    background: url(../images/ic-google.png) no-repeat scroll 0px 0px;
+    width: 45px;
+    height: 45px;
+    float: left;
+	 background-repeat: no-repeat; 
+	background-size:contain;
+}
+.btn_face {
+    background: url(../images/ic-face.png) no-repeat scroll 0px 0px;
+    width: 45px;
+    height: 45px;
+    float: left;
+	 background-repeat: no-repeat; 
+	background-size:contain;
+}
+.capcha {
+    background: transparent;
+    float: left;
+    width: 68px !important;
+    padding-left: 10px !important;
+}
+    .tabgame {
+        background: url("../images/tabgame.png") no-repeat scroll 0px 0px;
+        height: 542px;
+        float: left;
+        margin-top: -20%;
+        margin-left: 8%;
+        display: none;
+    }
+    .social {
+        width: 450px;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-left: 0px;
+        display: none;
+    }
+    .logo_content {
+        width: 63px;
+        margin: 0 auto;
+        padding-top: 10px;
+        margin-left: 36%;
+        padding-bottom: 10px;
+    }
+    .login_top_left {
+
+        float: left;
+    }
+    .social ul{
+        float: left;
+        width: 100%;
+        display: block;
+        list-style-type: none;
+    }
+    .social ul li{
+        float: left;
+        display: block;
+        padding-left: 10px;
+    }
+    .social ul li span{
+        color: #fff;
+        line-height: 63px;
+        font-family: Arial;
+        font-size: 24px;
+    }
+    .login_top_right {
+        width: 100%;
+        float: left;
+    }
+.news{
+    display:none;
+}
+.container {
+    background: url(../images/bg.jpg) no-repeat scroll 0px 0px;
+    width: 100%;
+    height: 565px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+}
+
+
+.footer {
+    position: absolute;
+    right: 0;
+    left: 0;
+    height: 104px;
+    background-color: #0a061c;
+    text-align: center;
+}
+
+.container-menu {
+    width: 1154px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    margin-top: 22px;
+    width: 100%;
+    display: table;
+    table-layout: fixed;
+}
+
+.footer-menu {
+    display: table-cell;
+
+}
+.footer-menu ul {
+    list-style: none;
+    padding-left: 0px;
+}
+.footer-menu ul li {
+    display: inline-block;
+}
+.footer-menu ul li a {
+    text-decoration: none;
+    padding: 10px 10px;
+    color: #ffffff !important;
+    font-size: 20px;
+}
+
+.footer-pt {
+    display: table-cell;
+
+}
+.footer-pt h3{
+    color:  #ffffff;
+
+}
+.footer-kn {
+    display: table-cell;
+
+}
+.footer-kn h3{
+    color:  #ffffff;
+    margin-bottom: 5px;
+}
+
+
+.footer-kn ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.footer-kn ul li{
+    display: inline-block;
+}
+
+.footer-kn ul li a{
+
+    padding: 10px 5px;
+
+}
+
+
+div.slides {
+    height: 167px;
+    width: 167px;
+    top: -1px;
+    position: absolute;
+}
+
+div.car_lexus {
+    height: 354px;
+    width: 496px;
+    top: 60px;
+    right: 235px;
+    position: absolute;
+}
+
+div.grils {
+    height: 718px;
+    width: 218px;
+    top: -1px;
+    z-index: 3;
+    position: absolute;
+}
+
+div.grils img {
+    z-index: 2;
+}
