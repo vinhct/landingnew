@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="css/style.css" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/simplePagination.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="contentb">
+        <div class="col-sx-12">
+        	<div class="baot1">
+            	<div class="icongame col-sm-4">
+                	<img src="images/logo1.png" width="100%" >
+                </div>
+                <div class="disct col-sm-5">
+                	<h2>Xeng.Club - Cổng game online</h2>
+                    <p style="color:#f70000"><span style="font-size:18px"><strong>★ ★ ★ ★ ★</strong></span><br></p>
+					<div id="help">
+					</div>
+                </div>
+                <div class="download col-sm-3" id="link">
+                </div>
+            </div>
+            </div>
+        </div>
+
+        </div>
+    </div>
+
+</footer>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="bootstrap-3.3.7-dist/js/jquery.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>
+
+<script>
+    
+     $(document).ready(function(){
+		var isMobile = {
+			Android: function() {
+				return navigator.userAgent.match(/Android/i);
+			},
+			BlackBerry: function() {
+				return navigator.userAgent.match(/BlackBerry/i);
+			},
+			iOS: function() {
+				return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+			},
+			Opera: function() {
+				return navigator.userAgent.match(/Opera Mini/i);
+			},
+			Windows: function() {
+				return navigator.userAgent.match(/IEMobile/i);
+			},
+			any: function() {
+				return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
+			}
+		};
+		console.log(navigator.userAgent);
+		if(navigator.userAgent.match(/iPhone|iPad|iPod/i)){
+			console.log('IOS');
+		   $("#link").html('<a href="itms-services://?action=download-manifest&url=https://download.vinplay.com/ios/xengclub.plist"><img src="images/ios.png"> </a><a href="https://www.facebook.com/xengclub/"><img src="images/fb.png"> </a>');
+		   $("#help").html('<font color="#808080"> ' +
+				'Bước 1: Ấn vào "Download for IOS" để cài đặt.<br> ' +
+				'Bước 2: Sau khi cài đặt <b>Xeng.Club</b> thành công bạn cần vào:<br> ' +
+				'Cài đặt---> Cài đặt chung--> Quản lý thiết bị--> Jexcore Infotech Private Limited ---> Tin cậy<br> ' +
+				'Xem chi tiết <a href="http://xengclub.net/bai-viet/huong-dan-tai-va-cai-dat-truc-tiep-vinplay-cho-he-dieu-hanh-ios-211"><b>Tại đây</b></a> ' +
+				'</font>');
+		} else if (isMobile.Android()){
+			setTimeout(function(){location.href="https://zum.club/zumclub.apk"} , 1);
+		};
+		
+    });
+</script>
